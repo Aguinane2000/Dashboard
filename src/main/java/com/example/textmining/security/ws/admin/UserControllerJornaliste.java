@@ -26,10 +26,7 @@ public class UserControllerJornaliste {
     }
 
 
-    @GetMapping("/")
-    public List<User> findAll() {
-        return userService.findAll();
-    }
+
 
 
     @GetMapping("/username/{username}")
